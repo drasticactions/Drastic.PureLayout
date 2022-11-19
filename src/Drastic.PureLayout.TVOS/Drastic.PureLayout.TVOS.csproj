@@ -16,7 +16,7 @@
 		<AdditionalFiles Include="..\..\stylecop.json" Link="stylecop.json" />
 	</ItemGroup>
 	<ItemGroup>
-		<NativeReference Include="..\Frameworks\ios\PureLayout.framework">
+		<NativeReference Include="..\Frameworks\tvos\PureLayout.framework">
 			<Kind>Framework</Kind>
 			<SmartLink>False</SmartLink>
 		</NativeReference>

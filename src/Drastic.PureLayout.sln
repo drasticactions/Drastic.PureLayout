@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.PureLayout.Mac", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.PureLayout.MacCatalyst", "Drastic.PureLayout.MacCatalyst\Drastic.PureLayout.MacCatalyst.csproj", "{90CF900D-2967-4C95-953F-CB795006D29D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.PureLayout.TVOS", "Drastic.PureLayout.TVOS\Drastic.PureLayout.TVOS.csproj", "{B60D3F60-430F-4E4E-B41B-305969A78B9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{90CF900D-2967-4C95-953F-CB795006D29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90CF900D-2967-4C95-953F-CB795006D29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90CF900D-2967-4C95-953F-CB795006D29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60D3F60-430F-4E4E-B41B-305969A78B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60D3F60-430F-4E4E-B41B-305969A78B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60D3F60-430F-4E4E-B41B-305969A78B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60D3F60-430F-4E4E-B41B-305969A78B9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
