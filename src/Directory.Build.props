@@ -3,7 +3,31 @@
         <LangVersion>preview</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Company>Drastic Actions</Company>
+        <Copyright>Copyright (C) Drastic Actions</Copyright>
+        <IsPackable>false</IsPackable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="../../README.md" Pack="true" PackagePath="" Visible="false" />
+      <None Include="../../favicon.png" Pack="true" PackagePath="" Visible="false" />
+    </ItemGroup>
+
+    <PropertyGroup>
+    <Authors>$(Company)</Authors>
+      <PackageTags>purelayout layout ios mac catalyst tvos</PackageTags>
+      <PackageProjectUrl>https://github.com/drasticactions/Drastic.PureLayout</PackageProjectUrl>
+      <PackageReleaseNotes>https://github.com/drasticactions/Drastic.PureLayout/blob/main/CHANGELOG.md</PackageReleaseNotes>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
+      <PackageIcon>favicon.png</PackageIcon>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+      <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+      <PublishRepositoryUrl>true</PublishRepositoryUrl>
+      <EmbedUntrackedSources>true</EmbedUntrackedSources>
+      <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.354">
 			<PrivateAssets>all</PrivateAssets>
