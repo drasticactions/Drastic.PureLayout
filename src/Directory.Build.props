@@ -3,12 +3,11 @@
         <LangVersion>preview</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Version>1.0.0</Version>
+        <Version>1.0.4</Version>
         <Company>Drastic Actions</Company>
         <Copyright>Copyright (C) Drastic Actions</Copyright>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
-
     <ItemGroup>
       <None Include="../../README.md" Pack="true" PackagePath="" Visible="false" />
       <None Include="../../favicon.png" Pack="true" PackagePath="" Visible="false" />

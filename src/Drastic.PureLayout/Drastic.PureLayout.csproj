@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net6.0-ios;net6.0-maccatalyst;net6.0-tvos;net6.0-macos</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>true</ImplicitUsings>
+		<IsBindingProject>true</IsBindingProject>
+		<IsPackable>true</IsPackable>
+		<Description>Binding of PureLayout</Description>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	</PropertyGroup>
+	<ItemGroup Condition="'$(TargetFramework)' != 'net6.0-macos'">
+		<ObjcBindingApiDefinition Include="iOS_ApiDefinitions.cs" />
+		<ObjcBindingCoreSource Include="iOS_StructsAndEnums.cs" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-macos'">
+		<ObjcBindingApiDefinition Include="mac_ApiDefinitions.cs" />
+		<ObjcBindingCoreSource Include="mac_StructsAndEnums.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<AdditionalFiles Include="..\..\stylecop.json" Link="stylecop.json" />
+	</ItemGroup>
+	<ItemGroup>
+		<NativeReference Include="..\Frameworks\PureLayout.xcframework">
+			<Kind>Framework</Kind>
+			<SmartLink>False</SmartLink>
+		</NativeReference>
+	</ItemGroup>
+</Project>

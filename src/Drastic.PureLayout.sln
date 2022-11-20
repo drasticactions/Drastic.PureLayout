@@ -3,13 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.PureLayout.IOS", "Drastic.PureLayout.IOS\Drastic.PureLayout.IOS.csproj", "{0DC13FD2-CF2A-48CA-8EBA-F269B3B15A16}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.PureLayout.Mac", "Drastic.PureLayout.Mac\Drastic.PureLayout.Mac.csproj", "{932BB806-2586-432C-B14B-9311E6E22FBA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.PureLayout.MacCatalyst", "Drastic.PureLayout.MacCatalyst\Drastic.PureLayout.MacCatalyst.csproj", "{90CF900D-2967-4C95-953F-CB795006D29D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.PureLayout.TVOS", "Drastic.PureLayout.TVOS\Drastic.PureLayout.TVOS.csproj", "{B60D3F60-430F-4E4E-B41B-305969A78B9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.PureLayout", "Drastic.PureLayout\Drastic.PureLayout.csproj", "{153D336E-E75A-4F0F-BFC4-33B2FC2983D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,21 +14,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0DC13FD2-CF2A-48CA-8EBA-F269B3B15A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DC13FD2-CF2A-48CA-8EBA-F269B3B15A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DC13FD2-CF2A-48CA-8EBA-F269B3B15A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DC13FD2-CF2A-48CA-8EBA-F269B3B15A16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{932BB806-2586-432C-B14B-9311E6E22FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{932BB806-2586-432C-B14B-9311E6E22FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{932BB806-2586-432C-B14B-9311E6E22FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{932BB806-2586-432C-B14B-9311E6E22FBA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90CF900D-2967-4C95-953F-CB795006D29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90CF900D-2967-4C95-953F-CB795006D29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90CF900D-2967-4C95-953F-CB795006D29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90CF900D-2967-4C95-953F-CB795006D29D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B60D3F60-430F-4E4E-B41B-305969A78B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B60D3F60-430F-4E4E-B41B-305969A78B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B60D3F60-430F-4E4E-B41B-305969A78B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B60D3F60-430F-4E4E-B41B-305969A78B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153D336E-E75A-4F0F-BFC4-33B2FC2983D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153D336E-E75A-4F0F-BFC4-33B2FC2983D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153D336E-E75A-4F0F-BFC4-33B2FC2983D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153D336E-E75A-4F0F-BFC4-33B2FC2983D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
